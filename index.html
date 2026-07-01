@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#1c1420">
+  <meta name="apple-mobile-web-app-title" content="MV Kaarten">
+  <link rel="apple-touch-icon" href="data:image/png;base64,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">
+  <link rel="manifest" href="data:application/manifest+json;base64,eyJuYW1lIjogIk1WIEZsYXNoY2FyZHMgXHUyMDE0IFAyL1QyIiwgInNob3J0X25hbWUiOiAiTVYgS2FhcnRlbiIsICJzdGFydF91cmwiOiAiLiIsICJkaXNwbGF5IjogInN0YW5kYWxvbmUiLCAib3JpZW50YXRpb24iOiAicG9ydHJhaXQiLCAiYmFja2dyb3VuZF9jb2xvciI6ICIjMWMxNDIwIiwgInRoZW1lX2NvbG9yIjogIiMxYzE0MjAiLCAiaWNvbnMiOiBbeyJzcmMiOiAiZGF0YTppbWFnZS9wbmc7YmFzZTY0LGlWQk9SdzBLR2dvQUFBQU5TVWhFVWdBQUFMUUFBQUMwQ0FZQUFBQTl6UVl5QUFBUG5FbEVRVlI0bk8yZFdXeFUxeG5IL3pOZXNBMEdERTVZREk1akZvTU5OaWJHa0IzQ1VuWU1BUkt5UHVRbHJkU29VdFFxaXRUMm9WSFVWbFhWdEUybFNsRWUwcEN3MkN3R3pFNVlBaUhZeHJ2QkM4WVltOFhZeGdidnkwd2ZpQkY0N3AyNWQ4NTNsem41ZmsvazNwbnZIc2h2dmpuTGQ4NDRZQk0ramtsMFc5MEd4bjgrYlNoM1dOMEdBTENzRVN5dzNGZ2x1S2tQWllsL25wZ3B0K0VQWW9tWlJ6RmFic09DczhpTU40d1NtendvaTh6b2dWcHNKMlV3bHBuUkM3VXpKSjhPRnBtaGdDSmJDMmRvbHBtaGdzSWxJYUZaWm9ZYVVhZjhTdkVzTW1NRy9uUkJkR2RvbHBreEMzOWMweVUweTh5WWpWN25OQXZOTWpOV29jYzkwbmxvaHJFYVRVSnpkbWFzUnF1RFBvVm1tUm03b01WRnIwS3p6SXpkOE9Vazk2RVpxVkFWbXJNelkxZTh1YWtvTk12TTJCMDFSN25Md1VpRmg5Q2NuWmxBUWNsVnp0Q01WRHdtTkdkbkp0QVk2aXhuYUVZcVdHaEdLaDRLemQwTkpsQjUxRjNPMEl4VXNOQ01WRGdCN200d2djK2d3NXloR2FsZ29SbXBZS0VacVhCdy81bVJDYzdRakZTdzBJeFVzTkNNVkxEUWpGU3cwSXhVc05DTVZMRFFqRlN3MEl4VXNOQ01WTERRakZTdzBJeFVzTkNNVkxEUWpGU3cwSXhVc05DTVZBU3IzWWlLbllUMzkyV1oxcEM2dkl2WSt0NHZUWHVlVmhJV0w4S0d2Ly9adE9lZC8vSXJmUGZaNXdDQVZ6NzhBUFBmZWRPMFp6OUtSM01ML3ZuS0N2SzRjUXZTc2VXLy95S0xWL1hkYVdUKzVyY1AvOXMyR1RvMmJTN0dKODZ3dWhrZXBML3podFZOWUhSZ0c2RUJXSmFOMUloSm5vVkpjNUt0YmdhakExc0pQV1BaWW93Y1A4N3FaandrM1dZZk1NWTN0aExhR1JTRXREZGVzN29aQUlEUk1ST1JzSGloMWMxZ2RDSzBTWGI1N3o5QzZzYjFsTzFCVDNzNy9yMXNEWG83T2tuajZtWHBSeDhpYmN0bTBwaDlYVjM0MjRLRnduRkNoMGZnMThkeUVCb1JMaHlyWU9jdUhQcmtMOEp4cUhqMnZYZXg4SU5mZVZ4dnFidU8vNjdkQkxpOTYycXJEQTBBdzBhTVFNcjZ0WmEySVN3eUVpa1pheXh0Z3pkNk96cFJsbk9JSkZiU3l1VWtId3dLSEU0bjVyeWFvWGl2Y09kdW56SUROaFFhQU9hOStUb2NUdXVhbHJwcEEwTEM3ZkUvV1kyTE8yaW1WRU9IUnlCcDVYS1NXS0xFUDdjQW8yTW1lbHp2NytsRmNmWitUVEZzS2ZTb2lST1FzR1NSSmM5MkJnY2o3UTNhcm9ZUk5GWlVvYUc0bENSVzZpYmFicU8vcEc3ZW9Iajk4dEhqNkdwdDB4VERsa0lEMWszaEphMVloaEZQUkZ2eWJMMFVFR1hwY1RNU01IRldFa2tzZnhrNWZoeW12dmk4NHIyQ25iczB4ekZFNk1hS0tyaGRMcUVZRTJjbllkS2NGS0lXYVNmOWJlV0ZsRnZsbDAxdWlXOHVIVG1HcnJaN0pMRlNOeWxuUjdPWTgycUdZamV6c2JJYTlZWEZtdU1ZSW5UYmpadW9QSEZLT0U3Nk8xc0lXcU9kcDU5Tng1TUowenl1dDk5cHdxWERSMDF0aXhiNmUzcFJvckZ2Nll1Wnk1Y2dMREtTSkpaZW5FRkJTTm1nUEJHZ0p6c0RCblk1THZ6dlcrRVkweGU5aktqSmt3aGFvdzIxaFpTOGIzZGdvTC9mdEhib29XREhMazJqZjErRWhJVmgxbXI2MmcwdFRIL2xaWXlJOXV6bTlYWjJvZlRBUVYyeERCTzZ2ckFJTjh2S2hXSTRuRTdNZS9OMW9oWjVKM3BLUE9LZlcrQnh2YSs3RzRXWnUwMXBneiswMUYxSDdZVThrbGhXRFE3VnVqdGxPWWQwcjBjWU9paWt5TkxKR2FzUk50TDRyMEsxUVdoSjlnR3lmcXBSNlAxYVZpTjZTandtejUxREVrc3JZMkluSXk0OVRmRmV3UTc5Znk5RGhiNTg1RGp1Tjk0UmloRVNIbzdVamNZT1dJWkhqMFhTeW1XZU45eHU1RzNkYnVpekthZzhjUXJ0VFUwa3Njd2VIS1p1M2dBNEhCN1hHNHBMY2J1aVVuYzhRNFYyRFF3Zy85dWR3bkdlMmJJSnptRFYwbTFoMHJac1JsQm9xTWYxNmpObjBWeDd6YkRuVXVFYUdFRFJybXlTV0RPV0xFTDQ2TkVrc1h3UlBDd1VzOWV1VnJ6bjc3ZU80ZlBRaFZtNzBkZmRMUlFqOHNrbmtMaDhLVkdMSGlja0xFdzFLMUYwbWN5aU1HdVA4RlFwQUFTRmhpSjUzU3FDRnZsbTVySWxDQjgxMHVONlY5czl2MmVWREJlNnErMGVTcklQQ01jeHF0QStPV08xNGo5cVkwVVZyaEVOdHN6ZzNxM2JxRDV6bGlUV25JM3JGYnNCMUtnbGtwTHNBK2p2NmZVcnBpa3JoYmxmYnhPZVdocVhNQjFQcVF3ZS9PWEJMSXJ5WFBlRnJ3TW5PdzlDTlRnY0V6c1pjZlBua2NSUzQ4bnBVeEdUTWx2eG5zaXNraWxDdDF5clEvWDM1NFRqVUMrSFQxdjRFcUppUGVlNU81cWFVWDd3Q09tenpLRG03SG0wM2JoSkVvdTZMSGdvY3plL3Fuajkyb1U4b1hHTGFiVWN1UVQ5MFNrdlBJdXg4WEhpamZtSitlOHFkMlB5dDJkaG9LK1A3RGxtNFhhNVVFQTBaejU5MFVzWUhqMldKTlpRUWlQQ1ZTdjhMZ3AreTVnbWRPMlB1V2lzckJZTDRuQWcvUzJhNVhDMVdwSCtubDZ5MGt3cktOcWRUZkpoZEFZSEcxYVhuclJxQlVLSFIzaGM3MmhxRmk2Wk1MWGFMbmVyZUphZXRYb2xJcUtpaE9QTWYvY3R4ZXVsKzNQUTFkb3FITjhxT2x2dW92TEVTWkpZYWdWRG9zeFZHUXdXN2M2R1M3REV3RlNoeTNLT29MUGxybENNNEdHaG1QdWFjdjlMSzZyN0JkM3VnQndNRHVXaUh5dHNTb3lhTUI3eHozdVdBNGdRa3pKYnNRRE03WEtoSUd1UGNIeFRoUjdvcGZrNmYrYjFqUWdlNXJrUW9wVjVieW52aUtrNWR4N05OYlVDTGJNSGRYa1h5ZjRlMUN1SGFvUEJLOStmdzcyYnQ0VGptMTdnbjc4OUV3TzkvczB4RGhJUkZZVlpxMWY2OWQ2d3lFZ2taeWozRFFOcEljVVhCWmswV1hycWk4K1RIUzBSUG1va1ppeGRySGpQbjdvTkpVd1h1clBsTHNweXhLZkUwdC9hNHRma2YrcW1EWXFiUXB1dTFPRHFEejhLdDhzdWxHVG5DSy9RQW9NYlY5Y1J0QWhJWHJkRzhadTE3ZVl0WERuN0E4a3pMTm1DUlRFNEhCc2ZoeWt2UEt2clBkNzJDOHFVblFHZysvNTlYRHAwakNSV3l2cDFjQVlGaVFWeE9EQm5ZNGJpcmNMTTNTVEw5b0JGUWpkV1ZxUDJ4MXpoT0dyYnBkUlEyeS9ZMlhJWHBRZG9qZ1d3RTFUVGp5T2VpTWJVbDE4VWloRTNmeDdHUEJYcmNkM1YzNCtpM1RTRlZZQ0ZtMlFwRmxyaTVzOVRIREdyb2ZZQnVMZ2pTN2hmYjBkdWxwV1Q3WVdjcTdJalcvUDdWUWFYRlNkT29xTzVSU2oybzFnbWRQWDM1MGhLTTdVdWg4Y3RVTjR2T05EYmkvenRtY0x0c0N1aUsyK0RQTDBnSGFNbnhmajEzaEhSMFppMjZDWEZlMVNEd1VHc084YkE3VWJlTnp1RXd5UXVYNnJwMklINUt0VjZwVG1IaGVmRzdVejV3U1BvYVc4WEQrUndJRlhsVkNOZnBHeFE3b00zMTE3RHRkeDh3WVk5anFYbmNwVHMzWS91ZS9lRlltZzVHQ1o2U2p6aW4xY2VRT1pLc0pEaWpiNnVMcFR1MDdmUlZJM2tqRFVJQ2duUjlSNXZzeVJVMVlHUFlxblFWQnRRVXpkNlA3cExyVnR5OVljTHVGTjFSZmo1ZG9lcTJ4RXhKa3IzaWF4VFgxS2V4Kzd2NlNHcGt4K0s1U2NuNVczYkNkZkFnRkNNc0pHUlNNNVEzc3FqdWw4UThtZm5RWnF1MUtDK29JZ2tsdDZWUTdYWGx4ODZLdnp0cklUbFF0Ky8zWWpMUjQ0THgxRTc0REh0OVUySyt3V2JhMnJKSnZNREFhb3B2TmkwdVJqN2RKeW0xNDZhT0VIeGFBakFtTzRHWUFPaEFacEZqYWpKa3pCdDRlTWphYS83QmJkK1MzSkFTNkJ3K2VnSmRONmxHZnhxTGY1UDNiUmVNY25jcnFqRWpaSXlrcllNeFJaQzN5d3JSMzJoK0ZmaTBJTDk1SXpWQ0I4OXl1TjFYYTF0WkFPbFFHR2dydy9GZTJpT0RadTlkcFhQNHJDZ2tCQ2txTlRNR0ZsdmJndWhBWm9zUFdsT3lzTlROTDN0Rnl6WXVRdjlQVDNDendzMENqSzFIUnJ1aTdDUmtaaTViSW5YMXlRc1hvaUlNWjUxNjcwZG5TalBPU3pjQmpWc0kzVGxpVk1rKytIU2Y4clNhdnNGQi9yNmtMOU4zb1VVYjdUV042Q0dxQURMMStCUXJVeTA5TUJCOUhaMmtiUkJDZHNJN1hhNVNCWmFaaXg1QmFNbVRsRGRMMWgrNkNqWktVT0JDTlZnTENabE5wNmNQbFh4M3RqNE9FeCtKdFhRNTZ0aEc2RUJvR2pYWHVFZkMzSTRuVmo5cHorb25pMU5VVU1TeUZTZFBJUDd0eHRKWXFsbGFiVzZqZnJDWXZGOXBUNndsZEE5SFIwbzJyTlBPRTVzMmx6RjY5ZHk4LzA2TDAwbTNDNFhDbmZ0SlltVnRHcTV4NEpXU0ZnWVpxMVIzbnhCWGJlaGhLMkVCb0M4YjdhVDFjWU81ZWVlblFjcHpOb2p2SmdGQU1PR0QwZlN5bDg4ZGkxeCtWTEZnOU83V3R0dzZhajRlb012YkNkMGEzMERxazZlSm8vYlVuY2RWYWUvSjQ4YmlMVGZhVUwxcVRNa3NZWjJPMUpWQm9QRjJmdE5LZEcxbmRDQU1idEhLSTRqa3dtcW5lSGpaeVpnUWxMaWd6OG56c0NFcEptZUwzSzdIL3pPb0FuWVV1anJGd3RKZjZTbis5NTlsT3lsV1ZTUWhhdm5MK0J1WFQxSnJNR1QvOVdtNm1wL3pFVkwzWFdTWi9uQ2xrSURQMlZVSWdveWQ1RnNHSlVLdHh1RldUUlpNM0hGTW95Y01GNzF5R09xYndNdDJGYm84c05IMFg1SGZMN1kxZDlQY3VpNmpCVHRvZW5YaG9TRlllTS8vcXBZd3R0K3A4bVFNWkVhdGhYYTFkK1AvRzNpSWw0NmZFejRaekZrcGF1MUZaZVBuaUNKTlc1R2d1TDFvdDE3U1daVXRHSmJvWUVIdFFlaU5SY3lITzFsSkVaMkI5d3VGd3F6YU9hOHRXSnJvYnRhMjFDeUw4ZnY5MS9QTDdEbEw4RGFpZnJDSXNOMjdWU2ZQb3Q3dDI0YkVsc05Xd3NOaUUyM2NYYldCdFVXcmFFWVhiZWhoTzJGYnI3cTM4NlN1OWZyVVhXU1p2RkFkc3IyMDFmQXRUYmNRTTI1ODZReHRXQjdvUUgvOXY3bGJUVnVDVjAyZWpvNnlHdVVDek5wZnBWTEx3RWg5TlVmTHVCT3RmWitYazk3TzRyM2loYzUvWnlnM0VVeTBOZUhvajEweDN2cHdiaGZzeVRtaTFlTitWazM1Z0czS3lweG83VHM0WTRmRVNxT243VHM4SjZBeU5DTU9WQ1ZkMW94R0J5RWhXWWVRbkZXUm5OTkxlcnlMaEsxU0Q4c05QTVFpdE9NakpvQzFBb0x6VHlHU0hlaHI3c2JwUUlMWVJRNFBvNUpWRnkxaUlxZGhQZjNHWGQrd2xkdnY0ZUc0bExENHV2bGQ3bG5GRTlZTXB2elgzNkY3ejc3M05JMnZQSEZmL0RVdkdkMHY2OW96ejdrL1BFVEExcWtIYzdRakFmK0RnN04yRFBvQ3hhYThhRGl4RWwwTkRYcmVzK3Q4c3U0V1ZadVVJdTB3MEl6SHJqNiszWHZ2cmQ2TURnSUM4MG9vdWVYcVhvNk9sQitVUHluK2loUUhSUXlUQ0RDR1pxUkNoYWFrUW9XbXBFS0ZwcVJDaGFha1FvV21wRUtGcHFSQ2hhYWtRb1dtcEVLRnBxUkNoYWFrUW9XbXBFS0ZwcVJDaGFha1FvV21wRUtGcHFSQ2hhYWtRb1dtcEVLRnBxUkNoYWFrUW9XbXBFS0ZwcVJDaGFha1FvV21wRUtGcHFSQ2hhYWtRb1dtcEVLRnBxUkN1ZW5EZVVPcXh2Qk1CUjgybER1NEF6TlNBVUx6VWdGQzgxSWhSTjQwUGV3dWlFTUk4S2d3NXloR2FsZ29SbXBlQ2cwZHp1WVFPVlJkemxETTFMQlFqTlM4WmpRM08xZ0FvMmh6bktHWnFUQ1Eyak8wa3lnb09RcVoyaEdLaFNGNWl6TjJCMDFSMVV6TkV2TjJCVnZibktYZzVFS3IwSnpsbWJzaGk4bmZXWm9scHF4QzFwYzFOVGxZS2tacTlIcUlQZWhHYW5RTERSbmFjWXE5TGluSzBPejFJelo2SFZPZDVlRHBXYk13aC9YaE9UOE9DYlJMZkoraGxGQ0pHa0tEUW81V3pQVWlEb2xQTXZCVWpOVVVMaEVLaU4zUVJoL29FeUtwUFBRbkswWnZWQTdZNWlBbkswWmJ4aVYvQXpQcUN3Mjh5aEdmNHViMmtWZ3VYK2VtTmtWdGF6UHkzTExqVlhqS2RzTTRsand3TVl1RXdML0J3WUVMWVIvTVROQ0FBQUFBRWxGVGtTdVFtQ0MiLCAic2l6ZXMiOiAiMTgweDE4MCIsICJ0eXBlIjogImltYWdlL3BuZyIsICJwdXJwb3NlIjogImFueSBtYXNrYWJsZSJ9XX0=">
+<title>MV Flashcards — P2 / T2</title>
+<style>
+  :root{
+    --bg:#1c1420; --card:#2a1f30; --card2:#34273c; --ink:#f3ecf3;
+    --muted:#b79fc0; --accent:#a8324a; --accent2:#7d5ba6; --good:#3f9d6d; --line:#4a3a54;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;height:100%}
+  body{background:var(--bg);color:var(--ink);font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    display:flex;flex-direction:column;min-height:100%;padding:env(safe-area-inset-top) 12px env(safe-area-inset-bottom)}
+  header{padding:14px 2px 8px;text-align:center}
+  h1{font-size:17px;margin:0;letter-spacing:.02em}
+  .sub{color:var(--muted);font-size:12px;margin-top:2px}
+  .decks{display:flex;flex-wrap:wrap;gap:6px;justify-content:center;margin:12px 0 6px}
+  .chip{border:1px solid var(--line);background:transparent;color:var(--muted);
+    padding:6px 11px;border-radius:20px;font-size:13px;cursor:pointer}
+  .chip.on{background:var(--accent2);border-color:var(--accent2);color:#fff}
+  .bar{display:flex;justify-content:space-between;align-items:center;color:var(--muted);font-size:12px;margin:4px 2px}
+  .wrap{flex:1;display:flex;align-items:center;justify-content:center;padding:8px 0}
+  .card{width:100%;max-width:520px;min-height:44vh;background:linear-gradient(160deg,var(--card),var(--card2));
+    border:1px solid var(--line);border-radius:18px;padding:26px 22px;display:flex;flex-direction:column;
+    align-items:center;justify-content:center;text-align:center;cursor:pointer;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+  .tag{position:relative;align-self:flex-start;font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:auto}
+  .q{font-size:21px;font-weight:600;margin:auto 0}
+  .a{font-size:19px;color:#ffe9d6;margin:auto 0;white-space:pre-line}
+  .hint{margin-top:auto;font-size:12px;color:var(--muted)}
+  .controls{display:flex;gap:8px;max-width:520px;width:100%;margin:10px auto 4px}
+  .btn{flex:1;border:1px solid var(--line);background:var(--card);color:var(--ink);
+    padding:13px;border-radius:12px;font-size:15px;cursor:pointer}
+  .btn:active{transform:scale(.98)}
+  .btn.good{background:var(--good);border-color:var(--good);color:#fff}
+  .btn.again{background:var(--accent);border-color:var(--accent);color:#fff}
+  .foot{display:flex;gap:8px;max-width:520px;width:100%;margin:0 auto 8px}
+  .mini{flex:1;background:transparent;border:1px solid var(--line);color:var(--muted);padding:9px;border-radius:10px;font-size:12px;cursor:pointer}
+  .done{text-align:center;color:var(--muted);max-width:520px;margin:auto}
+</style>
+</head>
+<body>
+<header>
+  <h1>MV Flashcards — P2 · T2</h1>
+  <div class="sub">tik op de kaart om het antwoord te zien</div>
+</header>
+
+<div class="decks" id="decks"></div>
+<div class="bar"><span id="progress">—</span><span id="knownc">—</span></div>
+
+<div class="wrap">
+  <div class="card" id="card" onclick="flip()">
+    <div class="tag" id="tag">—</div>
+    <div class="q" id="face">Laden…</div>
+    <div class="hint" id="hint">tik = omdraaien</div>
+  </div>
+</div>
+
+<div class="controls">
+  <button class="btn again" onclick="mark(false)">Nog eens ↻</button>
+  <button class="btn good" onclick="mark(true)">Geweten ✓</button>
+</div>
+<div class="foot">
+  <button class="mini" onclick="shuffleDeck()">Shuffle</button>
+  <button class="mini" onclick="toggleHideKnown()"><span id="hk">Verberg geweten: uit</span></button>
+  <button class="mini" onclick="resetProgress()">Reset</button>
+</div>
+
+<script>
+/* ---- KAARTEN ---- deck: Afwijking | Begrip | Klimaat | Bodem | Proeven | T2 | Getallen */
+const CARDS=[
+ // Afwijkingen -> stof
+ {d:"Afwijking",q:"Kurkgeur (goût de bouchon)",a:"TCA (trichlooranisol), soms octenol"},
+ {d:"Afwijking",q:"Sulfietgeur",a:"Zwaveldioxide (SO₂)"},
+ {d:"Afwijking",q:"Oxidatie",a:"Acetaldehyde (door beluchting)"},
+ {d:"Afwijking",q:"Reductie (réduit, goût de bock)",a:"Mercaptanen"},
+ {d:"Afwijking",q:"Plantaardig karakter",a:"Hexenal, hexanol"},
+ {d:"Afwijking",q:"Foezel",a:"Hogere alcoholen"},
+ {d:"Afwijking",q:"Grijze rot",a:"Geosmine, octenol"},
+ {d:"Afwijking",q:"Azijnsteek / piqûre lactique",a:"Azijnzuur + ethylacetaat"},
+ {d:"Afwijking",q:"Farmaceutisch / waterverf (witte wijn)",a:"Vinylfenolen"},
+ {d:"Afwijking",q:"Stallucht / paardenzweet — 'Brett' (rode wijn)",a:"Ethylfenolen"},
+ {d:"Afwijking",q:"Wijnsteenkristallen (tartre)",a:"Wijnsteen"},
+ // Franse begrippen
+ {d:"Begrip",q:"arôme de bouche",a:"Geurwaarneming in de mond (retronasaal)"},
+ {d:"Begrip",q:"astringence",a:"Astringentie; samentrekkend, drogend mondgevoel"},
+ {d:"Begrip",q:"bâtonnage",a:"Roeren om dode gistresten in oplossing te brengen"},
+ {d:"Begrip",q:"bourbes",a:"Troebelheden / vaste deeltjes in de most"},
+ {d:"Begrip",q:"chaptalisation",a:"Suiker (sacharose) toevoegen aan most/gistende wijn"},
+ {d:"Begrip",q:"collage",a:"Het klaren van wijn"},
+ {d:"Begrip",q:"cuvaison",a:"Duur van de macération (extractieduur)"},
+ {d:"Begrip",q:"débourbage",a:"Onttroebelen van druivensap (wit)"},
+ {d:"Begrip",q:"égrappage",a:"Ontstelen van de druiven"},
+ {d:"Begrip",q:"foulage",a:"Kneuzen van de druiven"},
+ {d:"Begrip",q:"levurage",a:"Toevoegen van voorgeselecteerde gist"},
+ {d:"Begrip",q:"lie / sur lie",a:"Gistresten; rijping op de gistresten"},
+ {d:"Begrip",q:"macération pelliculaire",a:"Weking van sap + schillen vóór vergisting"},
+ {d:"Begrip",q:"macération carbonique",a:"Inweking onder koolzuurgas (hele trossen)"},
+ {d:"Begrip",q:"marc",a:"Schillen en pitten van druiven"},
+ {d:"Begrip",q:"ouillage",a:"Bijvullen van de vaten"},
+ {d:"Begrip",q:"remontage",a:"Rondpompen van (gistende) wijn, al dan niet belucht"},
+ {d:"Begrip",q:"soutirage",a:"Wijn van vat op vat oversteken"},
+ {d:"Begrip",q:"sulfitage",a:"Zwavelen van de oogst / SO₂ toevoegen"},
+ {d:"Begrip",q:"vin de goutte / vin de presse",a:"Loopwijn / perswijn"},
+ // Klimaat
+ {d:"Klimaat",q:"Winkler-index — basis?",a:"Graden-dagen: som (gem. maandtemp − 10°C) × dagen, 7 mnd. 5 zones."},
+ {d:"Klimaat",q:"Huglin-index — wat voegt hij toe?",a:"Breedtegraad-correctie (daglengte) + gem. max.temp. IH ≥1400 = minimum."},
+ {d:"Klimaat",q:"Koele-nachtindex (IF, Tonietto)",a:"Gem. min.temp laatste rijpingsmaand → aroma-/kleurbehoud."},
+ {d:"Klimaat",q:"Köppen-types relevant voor wijnbouw",a:"Cf (zeeklimaat, geen droog seizoen) en Cs (mediterraan, droge zomer)"},
+ {d:"Klimaat",q:"Continentaliteit",a:"Temp.verschil warmste−koudste maand; groot=landklimaat, klein=zeeklimaat"},
+ {d:"Klimaat",q:"Schaalniveaus klimaat",a:"Macro → meso/topoklimaat → microklimaat (tot de wijnrank)"},
+ {d:"Klimaat",q:"1000 m hoogte ≈ ?",a:"± 1000 km noord-zuid (≈ 5–6 °C temperatuurverschil)"},
+ // Bodem
+ {d:"Bodem",q:"Drie watervormen in de bodem",a:"Gebonden (niet beschikbaar), capillair (beschikbaar), vrij (zakt weg)"},
+ {d:"Bodem",q:"Bodemhorizonten (boven→onder)",a:"A₁ (humus) · A₂/E (uitloging) · B (illuviaal, klei/ijzer) · C (verweerd) · R"},
+ {d:"Bodem",q:"Textuur → waterbeschikbaarheid",a:"Klei: veel gebonden water · leem: meest beschikbaar · zand: weinig"},
+ {d:"Bodem",q:"Kleimineralen & CEC",a:"Kaoliniet 1:1 laag · smectiet 2:1 zwelt, hoog · illiet 2:1 laag"},
+ {d:"Bodem",q:"Droogtestress & rode kwaliteit",a:"Gunstig; beste Bordeaux bij ETR/ETP ≈ 0,4–0,6"},
+ {d:"Bodem",q:"Terroir (Horstink)",a:"Systeem van natuurlijke factoren (klimaat, bodem+oorsprong) + de mens; effet millésime"},
+ // Proeven (P2)
+ {d:"Proeven",q:"P2 antwoordstructuur (volgorde)",a:"Conclusie → kleur → aroma's → alcohol% → zuur → structuur → houtbeleid → vinificatie"},
+ {d:"Proeven",q:"Aroma vs bouquet",a:"Aroma = geur van jonge wijn; bouquet = geur door rijping (tertiair)"},
+ {d:"Proeven",q:"Primair vs secundair aroma",a:"Primair (AP) uit de druif (terpenen); secundair (AS) uit de gistingen (esters)"},
+ {d:"Proeven",q:"Oxidatief (BO) vs gereduceerd (B/BR) bouquet",a:"BO = met lucht gerijpt (sherry/madeira); BR = afgesloten (bordeaux/bourgogne)"},
+ {d:"Proeven",q:"Vier grootheden van de geur",a:"Zuiverheid · intensiteit · samenstelling/finesse · geurtype"},
+ {d:"Proeven",q:"Smaakverloop",a:"Inzet → ontwikkeling → finale"},
+ {d:"Proeven",q:"Smaakevenwicht rood vs wit",a:"Wit: zoet(alcohol) ↔ zuur · Rood: zoet(alcohol) ↔ zuur + tannine/bitter"},
+ {d:"Proeven",q:"Diacetyl (boter/room) → ?",a:"Melkzuurgisting (MLG)"},
+ {d:"Proeven",q:"Banaan/kauwgom, laag tannine → ?",a:"Macération carbonique"},
+ {d:"Proeven",q:"Examenregel: bewijs komt van…",a:"…uit het glas, niet uit de boeken; koppel kleur aan ras (schildikte)"},
+ // T2 wijnbereiding
+ {d:"T2",q:"Mannoproteïnen (uit gistcel) — rol",a:"Eiwit-/wijnsteenstabiliteit, mondgevoel, sur lie/autolyse (wit, rood, mousserend)"},
+ {d:"T2",q:"Melkzuurgisting (MLG)",a:"Appelzuur→melkzuur: verzachting + biol. stabiliteit; diacetyl; Oenococcus oeni"},
+ {d:"T2",q:"Verrijking als alcohol te laag",a:"Chaptalisatie, RCGM/geconcentreerde most, omgekeerde osmose, cryo-extractie"},
+ {d:"T2",q:"Macération pelliculaire — doel",a:"Aroma-extractie (terpenen) bij witte wijn, vóór vergisting"},
+ {d:"T2",q:"Débourbage — doel",a:"Onttroebelen van geperst druivensap (schoner, fijner wit)"},
+ {d:"T2",q:"Rosé — lichtroze kleur",a:"Korte schilcontact / saignée / directe persing"},
+ {d:"T2",q:"SO₂ — vrij vs gebonden",a:"Vrij deel is werkzaam; werkzaamheid neemt toe bij lage pH"},
+ {d:"T2",q:"Stikstof (YAN) bij gisting",a:"Gistvoeding; tekort → giststress, giststilstand, ongewenste (zwavel)aroma's"},
+ {d:"T2",q:"Mousserend (trad. methode) — flesrijping",a:"Rijping op de lie vóór dégorgement; champagne langer dan cava"},
+ {d:"T2",q:"Macération carbonique vs vinification beaujolaise",a:"MC = hele trossen onder CO₂ (intracellulair); VB = deels gekneusd + CO₂"},
+ {d:"T2",q:"Mutage sur grains",a:"Gisting stoppen met alcohol op de schillen (versterkte wijn / VDN)"},
+ {d:"T2",q:"Schiltannine vs pittannine",a:"Schil: rijper, zachter; pit: groener, harder/bitterder"},
+ // Getallen
+ {d:"Getallen",q:"Actieve drempeltemperatuur wijnstok",a:"10 °C"},
+ {d:"Getallen",q:"Optimum fotosynthese",a:"± 20–22 °C (groei-optimum 23–25 °C)"},
+ {d:"Getallen",q:"Beste rode kwaliteit: ETR/ETP",a:"≈ 0,4–0,6"},
+ {d:"Getallen",q:"Optimale bodem-pH",a:"5,2 – 7,5"},
+ {d:"Getallen",q:"Hogere alcoholen vs esters (orde)",a:"± 200 mg/l hogere alcoholen · ± 2–4 mg/l esters"},
+ {d:"Getallen",q:"Totaal zuurgehalte wijn (orde)",a:"± 4–7 g/l"},
+ {d:"Getallen",q:"Veel zuur = welke pH?",a:"Lage pH (lage zuurgraad); weinig zuur = hoge pH"},
+ // Les 7 — Aroma's & smaken (Daniëls)
+ {d:"Les7",q:"Terpenen — geur & druivenras",a:"Bloemig/druivig (geraniol, linalool, nerol); Muscat, Gewürztraminer"},
+ {d:"Les7",q:"Methoxypyrazines (IBMP)",a:"Groene paprika/vegetaal; marker van ONrijpheid; breekt af door zon; Cabernet, Carmenère"},
+ {d:"Les7",q:"Rotundone",a:"Peper (sesquiterpeen); Syrah, Grüner Veltliner; méér in koel klimaat/hoge opbrengst"},
+ {d:"Les7",q:"TDN / goût de pétrole",a:"Kerosine; carotenoïde-afbraak; bijna exclusief Riesling; door zon/warmtestress; primair van oorsprong"},
+ {d:"Les7",q:"Esters — waardoor gestuurd?",a:"Gistingstemperatuur (optimaal 15–18 °C); niet stabiel (± -40% na 7 mnd)"},
+ {d:"Les7",q:"Ethylacetaat vs isoamylacetaat",a:"Ethylacetaat = nagellak (neg.); isoamylacetaat = perendrop; vetzure ethylesters = ananas/anijs"},
+ {d:"Les7",q:"Diacetyl — geur & herkomst",a:"Boter; uit de malolactische omzetting (appelzuur→melkzuur), veel bij lange koele malo"},
+ {d:"Les7",q:"Thiolen (4MMP, 3MH, 3MHA)",a:"Passievrucht/buxus/grapefruit; variëtaal (Sauvignon Blanc ≫ Chardonnay); thiol-gisten VL3/X5/QA23"},
+ {d:"Les7",q:"Reductie (H₂S) — oorzaak & voorkomen",a:"Tekort O₂/stikstof(YAN)→vluchtige zwavel; voorkom: YAN, voorklaring, gistkeuze, geen zwavel vlak vóór oogst"},
+ {d:"Les7",q:"Spontane gisting — risico",a:"Niet-Saccharomyces vroeg actief, vallen weg >±4% alcohol; meer complexiteit maar risico azijnzuur/vluchtige fenolen"},
+ {d:"Les7",q:"Brett — stoffen & omstandigheden",a:"4-ethylfenol/ethylguaiacol (stal); hoge pH, veel extract, oud hout, warme kelder; bestrijd: hygiëne/SO₂/filtratie/chitosan"},
+ {d:"Les7",q:"Sulfiet — actieve vorm",a:"Moleculair SO₂; sterk pH-afhankelijk (pH 4,0 ≈ 10× meer nodig dan pH 3,0). EU: wit 200, rood 150 mg/l"},
+ {d:"Les7",q:"Frans vs Amerikaans eik",a:"Frans (Q. petraea): compacter, meer tannine, subtieler · Amerikaans (Q. alba): meer toast/kokos/vanille"},
+ {d:"Les7",q:"Druiftannine — schil vs pit",a:"Schil: rijper/zachter · pit: groener/astringenter · wijntannine: complexer, met kleur (pigmented = stabieler)"},
+ {d:"Les7",q:"Rode draad Wine Flavors",a:"Druif = bouwstenen (variëtaal) · gisting = vineus karakter · opvoeding = complexiteit; gist maakt geen voetafdruk die niet in de druif zit — behalve fouten"},
+ // Les 8 — Oenologische procedés (Horstink)
+ {d:"Les8",q:"Definitie 'wijn' (EU 1308/2013)",a:"Product uitsluitend verkregen door (gehele/gedeeltelijke) alcoholische vergisting van verse druiven of druivenmost"},
+ {d:"Les8",q:"Waar staan de oenologische procedés?",a:"Verordening (EU) 2019/934; aanbevolen door het OIV (na experimentele onderbouwing)"},
+ {d:"Les8",q:"EAV / PAV / TAV / NAV",a:"Effectief / Potentieel (uit restsuiker) / Totaal (E+P) / Natuurlijk (vóór verrijking) alcoholvolume"},
+ {d:"Les8",q:"Suiker → alcohol vuistregel",a:"± 17,5 g/l suiker ≈ 1 % vol alcohol"},
+ {d:"Les8",q:"Verrijking — waarmee & zone?",a:"Sucrose of (gerectificeerde) geconc. most, of concentratie; koeler mag méér: zone A max 3%, zone C max 1,5% vol"},
+ {d:"Les8",q:"Additief vs technische hulpstof",a:"Additief blijft bestanddeel (sulfiet, wijnsteenzuur); hulpstof gebruikt tijdens proces, mag alleen onschadelijke residuen laten (gelatine, bentoniet, enzym)"},
+ {d:"Les8",q:"Aanzuring / ontzuring — max",a:"Max 4 g/l aanzuren, 1 g/l ontzuren (in wijnsteenzuur); aanzuren en verrijken sluiten elkaar uit"},
+ {d:"Les8",q:"Wijnsteenstabiliteit — oplossingen",a:"Koudebehandeling (weken 4–5°C of uren rond vriespunt met entstof); of in oplossing houden: metawijnsteenzuur, mannoproteïnen, CMC, kaliumpolyaspartaat"},
+ {d:"Les8",q:"Mannoproteïnen — herkomst & werking",a:"Uit gistcelwand, komen vrij bij sur lie; voorkomen wijnsteenneerslag, verbeteren eiwitstabiliteit, ronder mondgevoel"},
+ {d:"Les8",q:"Stukjes eikenhout — voorwaarden",a:"Alleen Quercus; verhit maar niet verbrand/koolstofhoudend; geen aroma-versterkende toevoeging; min. 2 mm"},
+ // Les 9 — Bourgondische vinificatie (de Graaf)
+ {d:"Les9",q:"Chardonnay — karakter",a:"Neutraal 'allemansvriend', weinig eigen terpenen, vroeg rijpend, van nature hoge zuurgraad"},
+ {d:"Les9",q:"Pinot noir — karakter",a:"Cool-climate, kalkminnend, dunne schil, moeilijk te verbouwen; hoge tannine (1609 mg/kg) maar instabiele anthocyanen; optimaal ± 35 hl/ha"},
+ {d:"Les9",q:"Débourbage statique",a:"Most laten bezinken 10–18 °C, ± 24 u; bourbes = 'voedsel voor de wijn'; evt. klaring bentoniet/caseïne"},
+ {d:"Les9",q:"Streef-pH van de most",a:"Wit 3,1–3,2 · rood 3,3–3,35 (pinot noir wijn ideaal pH 3,45–3,55)"},
+ {d:"Les9",q:"Malo — wat & wanneer wel/niet",a:"Appelzuur→melkzuur: ronder, biologisch stabiel; rood vrijwel altijd; wit niet altijd (verlies frisheid, overschaduwt aroma)"},
+ {d:"Les9",q:"MSF vs MPF",a:"MSF (Accad): koude inweking ± 10°C met veel SO₂ · MPF: koude preferm. inweking 10–13°C, 3–6 dgn → minder kleur/tannine, meer fruit (Henri Jayer)"},
+ {d:"Les9",q:"Pigeage vs remontage + trend",a:"Pigeage = hoed onderdompelen (kleur/structuur); remontage = rondpompen (homogeniseren, zuurstof). Trend: minder pigeage → zachtere extractie, meer fruit"},
+ {d:"Les9",q:"Ontstelen vs hele trossen",a:"Ontsteeld: minder harde tannine, meer fruit/frisheid · vendanges entières: meer structuur/complexiteit, meer flesrijping, risico groene stelen"},
+ {d:"Les9",q:"Cuvaison",a:"Het hele proces van inweking + gisting; duurt ± 3–4 weken"},
+ {d:"Les9",q:"Gistingstemperatuur rood",a:"28–30 °C; te hoog → gevaar acidité volatile (vluchtig zuur)"},
+ {d:"Les9",q:"Gistsoorten & alcoholtolerantie",a:"Saccharomyces cerevisiae actief tot ± 14%; daarboven S. bayanus nodig"},
+ {d:"Les9",q:"Frans eiken — herkomst & pièce",a:"Wintereik (ONF): Vosges, Allier, Tronçais, Bertranges; duigen 2–3 jr drogen; pièce Bourgogne = 228 l"},
+ {d:"Les9",q:"Premox",a:"Voortijdige oxidatie van witte bourgogne (1996–2003), oorzaak onzeker; o.a. laag vrij SO₂ bij botteling, bâtonnage, lage persdruk, hoge rendementen"},
+ {d:"Les9",q:"Klimaatverandering — kernprobleem",a:"Suikerrijpheid loopt vóór op fenolische/aromatische rijpheid; warme jaren = loggere wijnen die terroir overschaduwen"}
+];
+CARDS.forEach((c,i)=>c.id=i);
+
+const KEY="mv_flash_known_v1";
+let known=JSON.parse(localStorage.getItem(KEY)||"{}");
+let deck="Alle", hideKnown=false, order=[], pos=0, showingA=false;
+
+const decks=["Alle",...[...new Set(CARDS.map(c=>c.d))]];
+const dc=document.getElementById("decks");
+decks.forEach(d=>{const b=document.createElement("button");b.className="chip"+(d===deck?" on":"");b.textContent=d;b.onclick=()=>{deck=d;build();paintChips()};dc.appendChild(b)});
+function paintChips(){[...dc.children].forEach(b=>b.classList.toggle("on",b.textContent===deck))}
+
+function pool(){return CARDS.filter(c=>(deck==="Alle"||c.d===deck)&&(!hideKnown||!known[c.id]))}
+function build(){order=pool().map(c=>c.id);pos=0;showingA=false;render()}
+function shuffleDeck(){for(let i=order.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[order[i],order[j]]=[order[j],order[i]]}pos=0;showingA=false;render()}
+function toggleHideKnown(){hideKnown=!hideKnown;document.getElementById("hk").textContent="Verberg geweten: "+(hideKnown?"aan":"uit");build()}
+function resetProgress(){if(confirm("Voortgang wissen?")){known={};localStorage.setItem(KEY,"{}");build()}}
+function flip(){showingA=!showingA;render()}
+function mark(ok){const id=order[pos];if(ok)known[id]=1;else delete known[id];localStorage.setItem(KEY,JSON.stringify(known));next()}
+function next(){if(pos<order.length-1){pos++;showingA=false;render()}else{build();if(order.length)render()}}
+
+function render(){
+  const card=document.getElementById("card");
+  const knownCount=CARDS.filter(c=>known[c.id]).length;
+  document.getElementById("knownc").textContent="geweten: "+knownCount+"/"+CARDS.length;
+  if(!order.length){card.innerHTML='<div class="done">Geen kaarten in deze selectie.<br>Zet «Verberg geweten» uit of kies een ander deck.</div>';document.getElementById("progress").textContent="0 / 0";return}
+  const c=CARDS.find(x=>x.id===order[pos]);
+  document.getElementById("progress").textContent=(pos+1)+" / "+order.length+"  ·  "+c.d;
+  card.innerHTML='<div class="tag">'+c.d+(known[c.id]?" ✓":"")+'</div>'+
+    (showingA?'<div class="a">'+esc(c.a)+'</div>':'<div class="q">'+esc(c.q)+'</div>')+
+    '<div class="hint">'+(showingA?"tik = vraag":"tik = antwoord")+'</div>';
+}
+function esc(s){return s.replace(/&/g,"&amp;").replace(/</g,"&lt;")}
+build();
+</script>
+</body>
+</html>
