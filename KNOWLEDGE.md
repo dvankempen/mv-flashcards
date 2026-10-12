@@ -5,13 +5,13 @@ Generated, do not edit. `mv-flashcards/CLAUDE.md` plus the files in its "## Proj
 
 ---
 
-> Source: `mv-flashcards/CLAUDE.md` @ pending · blob 9795fa7
+> Source: `mv-flashcards/CLAUDE.md` @ pending · blob 89e6647
 
 # mv-flashcards
 
 ## Purpose
 
-Single-file flashcards web page "MV Flashcards — P2 / T2" with Dutch cards in seven decks (Afwijking, Begrip, Klimaat, Bodem, Proeven, T2, Getallen); progress is kept in the browser `localStorage` (index.html, README.md). The repo is public.
+Single-file flashcards web page "MV Flashcards — P2 / T2" with Dutch cards in 10 decks (Afwijking, Begrip, Klimaat, Bodem, Proeven, T2, Getallen, Les7, Les8, Les9; derived from the cards' `d` field); progress is kept in the browser `localStorage` (index.html, README.md). The repo is public.
 
 ## Folder map
 
@@ -128,8 +128,8 @@ are removed, not ranked.
 
 ---
 
-> Source: `mv-flashcards/README.md` @ pending · blob 98b7d6e
+> Source: `mv-flashcards/README.md` @ pending · blob 95e5d16
 
 # mv-flashcards
 
-Single-file flashcards web page, "MV Flashcards — P2 / T2" (`index.html`, `<title>`). Deck names in `index.html`: Afwijking, Begrip, Klimaat, Bodem, Proeven, T2, Getallen (comment at line 77). Card text is Dutch (`lang="nl"`). Progress is stored in the browser's `localStorage` (`index.html`); there is no server component and no build step. Exam context of "P2" and "T2": unverified (not stated in the repo).
+Single-file flashcards web page, "MV Flashcards — P2 / T2" (`index.html`, `<title>`). 112 cards in 10 decks, taken from the `d` field of the cards in `index.html`: Afwijking, Begrip, Klimaat, Bodem, Proeven, T2, Getallen, Les7, Les8, Les9 (the comment at line 77 lists only the first seven). Card text is Dutch (`lang="nl"`). Progress is stored in the browser's `localStorage` (`index.html`); there is no server component and no build step. Exam context of "P2" and "T2": unverified (not stated in the repo).
